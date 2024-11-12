@@ -5,8 +5,7 @@
  */
 function applyCustomSort() {
   [].__proto__.sort2 = function (compareFunction) {
-    const compareFn =
-      compareFunction ||
+    const compareFn = compareFunction ||
       function (a, b) {
         const strA = String(a);
         const strB = String(b);
